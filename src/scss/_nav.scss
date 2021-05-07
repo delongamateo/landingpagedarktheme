@@ -1,0 +1,21 @@
+nav {
+    background-color: $introcolor;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 20px;
+    margin-bottom: 0;     
+
+    img {
+        height: 3.5vh;
+    }
+
+    .navlist {
+
+        a {
+            color: white;
+            text-decoration: none;
+            padding-right: 10px;
+        }
+    }
+}
